@@ -43,6 +43,7 @@ Ticket Manager is a web application built using the MERN stack (MongoDB, Express
 ## Demo
 You can view a live demo of the project here: [Ticket Manager](https://ticket-manager-g9ib.onrender.com)
 
+[Ticket Manager Demonstration Video](https://drive.google.com/file/d/1Z2tuOK-MBUmqsM8hxa7XjZmqNK4hKJOE/view?usp=share_link)
 ### Sample User Data
 
 To test the different views and permissions within the application, you can use the following sample user data:
@@ -50,7 +51,7 @@ To test the different views and permissions within the application, you can use 
 - **Manager**:
   - **Username**: `Shrey`
   - **Password**: `Spike123`
-  - **Role**: Manager
+  - **Role**: Admin
   - **Permissions**: Can view all tickets and user settings.
 
 - **Employee**:
