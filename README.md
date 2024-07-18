@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Ticket Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ticket Manager is a web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) designed to replace the existing sticky note system for managing tasks and tickets at a local computer reapir shop.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Public Facing Page**: Basic contact information accessible to the public.
+  
+- **Employee Login**: Secure login system for employees to access the ticket application.
+  
+- **Welcome Page**: Personalized welcome page after successful login.
+  
+- **Intuitive Navigation**: Easy-to-use navigation for seamless user experience.
+  
+- **User Authentication**: Mandatory login at least once per week for security.
+  
+- **Immediate Access Removal**: Quick removal of employee access as needed.
+  
+- **Ticket Management**:
+  - Tickets are assigned to specific employees.
+  - Each ticket includes a ticket number, title, description, creation date, and last update date.
+  - Tickets can be OPEN or COMPLETED.
+  - Managers and Admins have permission to delete tickets.
+  
+- **User Roles**:
+  - Employees, Managers, and Admins have distinct roles.
+  - Permissions are role-based:
+    - Employees can view and edit their assigned tickets.
+    - Managers and Admins can view, edit, and delete all tickets.
+    - Only Managers and Admins have access to User Settings and can create new users.
+  
+- **Secure Logout**: Option for users to securely log out from the application.
+  
+- **Responsive Design**: Primarily designed for desktop use but mobile-friendly.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React.js for building the user interface.
+- **Backend**: Node.js and Express.js for server-side logic.
+- **Database**: MongoDB for storing tickets and user information.
+- **Authentication**: JWT (JSON Web Tokens) for secure authentication and authorization.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
+You can view a live demo of the project here: [Ticket Manager](https://ticket-manager-g9ib.onrender.com)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
