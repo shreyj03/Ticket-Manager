@@ -41,6 +41,10 @@ Ticket Manager is a web application built using the MERN stack (MongoDB, Express
 - **Authentication**: JWT (JSON Web Tokens) for secure authentication and authorization.
 
 ## Demo
+
+### NOTE
+Live demo is not working due to some issue occuring while connecting to MongoDB.
+
 You can view a live demo of the project here: [Ticket Manager](https://ticket-manager-g9ib.onrender.com)
 
 [Ticket Manager Demonstration Video](https://drive.google.com/file/d/1Z2tuOK-MBUmqsM8hxa7XjZmqNK4hKJOE/view?usp=share_link)
